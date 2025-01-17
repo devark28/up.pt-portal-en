@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .sect-head {
+        @apply text-5xl font-extralight text-lion;
+    }
+
+    .sub-sect-head {
+        @apply mt-12 text-3xl font-bold text-gray-700;
+    }
+
+    .quick-action-text {
+        @apply font-bold text-lion;
+    }
+}
