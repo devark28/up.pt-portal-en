@@ -3,7 +3,7 @@ export default {
   content: ['**/*.html'],
   theme: {
     extend: {
-      backgroundColor: {
+      colors: {
         lion: '#A18A4D'
       }
     },
