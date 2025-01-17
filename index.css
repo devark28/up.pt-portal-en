@@ -14,4 +14,8 @@
     .quick-action-text {
         @apply font-bold text-lion;
     }
+
+    .paragraph-text {
+        @apply text-xl font-light;
+    }
 }
